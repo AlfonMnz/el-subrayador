@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "El Subrayador",
+    "description": "Bombardeen Gibraltar",
+    "version": "1.0.1",
+    "author": "Poliedro",
+    "action": {
+        "default_popup": "dist/index.html"
+    },
+    "permissions": [
+        "tabs",
+        "scripting",
+        "http://*/*", 
+        "https://*/*",
+        "activeTab",
+        "storage"
+    ],
+    "icons": {
+        "16": "public/assets/imgs/icon-16_x_16.png",
+        "32": "public/assets/imgs/icon-32_x_32.png",
+        "48": "public/assets/imgs/icon-48_x_48.png",
+        "128": "public/assets/imgs/icon-128_x_128.png"
+    }
+}
